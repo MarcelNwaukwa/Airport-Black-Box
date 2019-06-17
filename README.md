@@ -91,7 +91,11 @@ TVL
 Important considerations:
 
 ● We will consider an airplane to have taken off when it accelerates past 100km/h
+
 ● We will consider an airplane to have landed when it decelerates below 50km/h
+
 ● The coordinates given are for the center of an airport. An airplane usually takes off and lands on a runway, which is not at the center of an airport. An extreme example of this is Amsterdam, where the north end of the furthest runway (De Polderbaan) is almost 8km away from the center of the airport.
+
 ● When printing out the list of airports, don't forget to include any intermediate airports that the plane may have landed at during the flight.
+
 ● To calculate the distance between two GPS coordinates, most people use the Haversine formula
